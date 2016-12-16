@@ -1,3 +1,6 @@
+# Description
+These codes are the results of a data analytics course I took. In this work, we explored the analytics behind predicting damage to wind turbines caused by lightning storms. The exploration was done by simulating lightning strikes and building classification models. We have approached the problem of simulating lightning strike as a parameter generation problem in which we generate each parameter of the lightning strike from a respective uniform random distribution. Employing the concept of feature engineering, we proposed various attributes for each of the turbines depending on the simulated lightning strikes. We analysed and tuned several classification models using the proposed turbine attributes and used the paired t-test metric to choose the classification model with the best performance. We used the lighting strikes data provided by Vaisala company and geo-data on 166 wind turbines made by GE. The purpose of our study is to predict the probability of a turbine being hit by a lighting strike for each of the 166 wind turbines, to direct the attention of inspectors and to improve the efficiency of manual inspection.
+
 # DataSets 
 * Contains 10 datasets to be used as training and testing data sets, generated using 'generateSimulatedDataSets.R'
 * these datasets are used in 'turbineClassification.R' code
@@ -52,6 +55,3 @@
 
 # Contact
 Please contact through email 'sahas3@rpi.edu' in case of any queries or to report any bugs. Thanks !
-
-# 
-As I'll work on some aspects of the codes, I'll host the new versions of the codes at tinyurl.com/sahaCourses in case anyone is interested in those updates.
